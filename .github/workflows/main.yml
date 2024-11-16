@@ -1,0 +1,17 @@
+name: python-litining
+
+on:
+  push:
+    branches: [main]
+jobs:
+  testingpythonlinting:
+    runs-on: ubuntu-latest
+    steps:
+    - name: gitcheckout
+      uses: actions/checkout@v4.2.2
+
+      
+
+      
+    
+  
